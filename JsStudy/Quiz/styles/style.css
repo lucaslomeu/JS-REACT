@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn {
+    background-color: gray;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.btn.correct {
+    color: green;
+}
+
+.btn.wrong {
+    color: red;
+}
+
+.hide {
+    display: none;
+}

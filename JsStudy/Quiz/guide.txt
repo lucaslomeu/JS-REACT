@@ -1,0 +1,5 @@
+Quiz
+Setar tempo que terá cada pergunta (cronometro)
+Questões de matemática e raciocionio lógico
+Mostrar na hora se acertou ou não
+Dar resultado final 

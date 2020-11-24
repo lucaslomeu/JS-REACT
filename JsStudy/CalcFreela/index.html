@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1><i class="fas fa-calculator"></i>Calculadora Freelancer</h1>
+        <h3>Saiba o valor do seu trabalho!</h3>
+    </header>
+
+    <section>
+        <div class="container">
+            <h1>Sua hora de trabalho</h1>
+            <div class="box">
+                <label for="wantWon">Quanto você deseja ganhar?
+        </label>
+                <input type="number" min="0" id="wantWon" placeholder="R$0.00">
+                <label for="hoursDay">Quantas horas quer trabalhar por dia?
+        </label>
+                <input type="number" min="0" id="hoursDay">
+                <label for="daysWeek">Quantos dias por semana quer trabalhar?
+        </label>
+                <input type="number" min="0" max="7" id="daysWeek">
+            </div>
+            <input type="submit" id="button" value="Calcular" onclick="priceHour()">
+        </div>
+
+        <div class="result"></div>
+
+        <hr>
+
+        <div class="container">
+            <h1>O valor do seu projeto</h1>
+            <div class="box">
+                <label for="priceProject">Quanto você ganha por hora?
+        </label>
+                <input type="number" min="0" id="priceProject" placeholder="R$0.00">
+                <label for="hourProject">Quantas horas irá trabalhar no projeto por dia?
+        </label>
+                <input type="number" min="0" id="hourProject">
+                <label for="dayProject">Quantos dias irá durar o projeto?
+        </label>
+                <input type="number" min="0" id="dayProject">
+            </div>
+            <input type="submit" id="button" value="Calcular" onclick="projectPrice()">
+        </div>
+        </div>
+
+        <div class="result1"></div>
+
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
